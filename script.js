@@ -34,6 +34,7 @@ while (victoriasUsuario < 3 && victoriasMaquina < 3) {
   } else {
     victoriasMaquina++;
     alert(`La máquina eligió: ${jugadaMaquina}\n\nLa máquina ganó esta ronda \nMarcador: Tú ${victoriasUsuario} -${victoriasMaquina} Máquina`);
+  }
 }
 
 let campeon = victoriasUsuario === 3 ? "¡Ganaste el torneo!" : "La máquina ganó el torneo";
